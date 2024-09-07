@@ -1,3 +1,11 @@
+import CurrentlyPlaying from "./components/CurrentlyPlaying";
+import Playlist from "./components/Playlist";
+
 export default function MusicPlayer() {
-  return <p>Music player goes here</p>;
+  return (
+  <>
+    <CurrentlyPlaying/>
+    <Playlist/>
+  </>
+  );
 }
