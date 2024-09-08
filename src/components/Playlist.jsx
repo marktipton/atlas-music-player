@@ -4,7 +4,7 @@ import PlayListItem from './PlayListItem'
 const Playlist = () => {
   return (
     <div className='p-6 md:w-1/2'>
-      <h1 className='font-medium text-xl'>Playlist</h1>
+      <h1 className='font-medium text-xl pb-4'>Playlist</h1>
       <PlayListItem name='Painted in Blue' artist='Soul Canvas' time='3:21' bgColor="bg-slate-100"/>
       <PlayListItem name='Tidal Drift' artist='Echoes of the Sea' time='8:02'/>
       <PlayListItem name='Fading Shadows' artist='The Emberlight' time='3:01'/>
