@@ -5,9 +5,9 @@ import { Slider } from "@material-tailwind/react";
 
 const VolumeControl = () => {
   return (
-    <div className='flex items-center'>
+    <div className='flex align-middle'>
       <HiMiniSpeakerWave/>
-      <Slider color="blue-gray" />
+      <Slider defaultValue={50} barClassName="bg-[#818899]"/>
     </div>
   )
 }
