@@ -5,6 +5,8 @@ const Playlist = () => {
   return (
     <div>
       <PlayListItem name='Painted in Blue' artist='Soul Canvas' time='3:21'/>
+      <PlayListItem name='Painted in Blue' artist='Soul Canvas' time='3:21'/>
+
     </div>
   )
 }
