@@ -6,9 +6,9 @@ import { GrPowerCycle } from "react-icons/gr";
 
 const PlayControls = () => {
   return (
-    <div className='flex space-x-4 items-center'>
+    <div className='flex justify-between items-center'>
       <p>1x</p>
-      <IoPlayBack/>
+      <IoPlayBack className="text-gray-500"/>
       <IoPlay/>
       <IoPlayForward/>
       <GrPowerCycle/>

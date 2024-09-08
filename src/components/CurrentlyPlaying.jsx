@@ -6,7 +6,7 @@ import VolumeControl from './VolumeControl'
 
 const CurrentlyPlaying = () => {
   return (
-    <div className='p-6 md:w-1/2'>
+    <div className='flex flex-col justify-between p-6 md:w-1/2'>
       <CoverArt/>
       <SongTitle/>
       <PlayControls/>
