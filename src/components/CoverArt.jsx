@@ -4,7 +4,7 @@ import placeholder from '../assets/placeholder.svg'
 const CoverArt = () => {
   return (
     <div>
-      <img src={placeholder} alt="CoverArt" />
+      <img src={placeholder} alt="CoverArt" className='rounded-lg'/>
     </div>
   )
 }
