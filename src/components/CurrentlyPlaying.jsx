@@ -6,7 +6,7 @@ import VolumeControl from './VolumeControl'
 
 const CurrentlyPlaying = () => {
   return (
-    <div>
+    <div className='p-6'>
       <CoverArt/>
       <SongTitle/>
       <PlayControls/>
