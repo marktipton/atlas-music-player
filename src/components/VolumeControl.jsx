@@ -7,7 +7,7 @@ const VolumeControl = () => {
   return (
     <div className='flex align-middle'>
       <HiMiniSpeakerWave/>
-      <Slider defaultValue={50} barClassName="bg-[#818899]"/>
+      <Slider defaultValue={75} barClassName="bg-[#818899]"/>
     </div>
   )
 }
