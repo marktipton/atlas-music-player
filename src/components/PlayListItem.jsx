@@ -1,8 +1,13 @@
 import React from 'react'
 
-const PlayListItem = () => {
+const PlayListItem = ({name, artist, time}) => {
   return (
-    <div>PlayListItem</div>
+    <div>
+      <div>{name}</div>
+      <div>{artist}</div>
+      <div>{time}</div>
+
+    </div>
   )
 }
 
